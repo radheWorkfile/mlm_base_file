@@ -1,244 +1,206 @@
-<div class="main">
+<!-- MLM_ddd_LAB_ -->
+<!doctype html>
+<html lang="en" itemscope itemtype="javaScript:void(0);">
+<meta http-equiv="content-type" content="" />
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="">
+    <title>Camwel Solution || About Us </title>
+    <meta name="title" Content="">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <?php include('include/css.php');?>
+</head>
+<body>
+<?php include('include/header.php');?>
+ 
 
-  <!--page header section start-->
-  <section class="" style="background: url('<?php echo base_url('assets/img/header-bg-5.jpg')?>')no-repeat center center / cover">
-    <div class="section-lg bg-gradient-primary text-white section-header">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md-8 col-lg-7">
-            <div class="page-header-content text-center">
-              <h1>About Us</h1>
-              <nav aria-label="breadcrumb" class="d-flex justify-content-center">
-                <ol class="breadcrumb breadcrumb-transparent breadcrumb-text-light">
-                  <li class="breadcrumb-item"><a href="#">Home</a></li>
-                  <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                  <li class="breadcrumb-item active" aria-current="page">About Us</li>
-                </ol>
-              </nav>
+
+<section class="page-header bg_img" data-background="<?php echo base_url();?>assets/images/frontend/breadcrumb/63821bed5b0bb1669471213.jpg">
+        <div class="container">
+            <div class="page-header-wrapper">
+                <h2 class="title">About</h2>
+                <ul class="breadcrumb">
+                    <li>
+                        <a href="index.php">
+                        Home                    </a>
+                    </li>
+                    <li>About</li>
+                </ul>
             </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </section>
-  <!--page header section end-->
+    </section>
 
-<!--services section start-->
-<section class="section services-section ptb-100 bg-soft">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-md-8">
-          <div class="section-heading text-center mb-5">
-            <h2>We Provide Quality Services</h2>
-            <p class="lead">Efficiently aggregate end-to-end core competencies without maintainable.
-              Dynamically
-              foster tactical solutions without enabled value.</p>
-          </div>
-        </div>
-      </div>
-      <p>An MLM or a Multilevel Marketing is a system of marketing in which selling of goods and services takes place through a network of distributors. A Multilevel Marketing system is adopted by various companies whether private or public to increase the sale of their produced goods and services. A company prefers Multilevel Marketing system over establishing showrooms in different parts of different countries which is a long process, both time and money consuming. The distribution process under Multilevel Marketing takes place at more than one level and due to a large number of distributors, it helps to reach maximum customers of the market.Recruitment is the common element of all the Multilevel Marketing systems. People are offered to become a distributor or a consultant of the company either through advertisements or through another distributor of the products of the same company. A Multilevel Marketing system has different types and is also known as Network Marketing, Direct Sales, Pyramid Selling, or Referral Sale but there is a minute difference among all these strategies.</p>
-      <p>A Multilevel Marketing is a very easy formula for money making, there is no limit to how much money you could make. Multilevel Marketing is generally less expensive than other forms of marketing. It is very economical to become a distributor than to start a business of your own which involves the element of risk. A Multilevel Marketing programme attracts various distributors due to their lucrative rewarding schemes. Companies like Amway offers cash bonuses on performance basis every month, the distributing staff of Avon company is offered various trip packages to different destinations.</p>
-      <p>The system of Multilevel Marketing is generally less regulated or laws for it are very vague. Multilevel Marketing is legal in the United States of America and In Canada also until and unless it contravenes The Competition Act. Federal Trade Commission (FTC) regulates Multilevel Marketing in the USA. The Multilevel Marketing plan is legal in India and hit the business industry of India in 1995 when a global MLM company Oriflame first introduced network marketing in India. After this Tupperware introduced Multilevel Marketing to Indian Markets and opened doors for other MLM companies in India. The renowned MLM companies in India include MaryKay, Avon, Forever Living. Multilevel Marketing is governed by The Consumer Protection Act, 1986.</p>
-      <p>MLM companies or Network marketing companies can offer you a great opportunity to make some extra money right way. Irrespective of your work experience and educational qualification everyone has an equal chance to make money as a MLM marketer.</p>
-    </div>
-  </section>
-  <!--services section end-->
-  
-  <!--about section start-->
-  <section class="section section-lg bg-soft">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-md-9 col-lg-8">
-          <div class="section-heading text-center">
-            <h2>About Us</h2>
-            <p class="lead">Distinctively grow go forward manufactured products and optimal networks. Enthusiastically
-              disseminate user-centric outsourcing revolutionary</p>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12 col-lg-12">
-          <div class="feature-tabs-wrap">
-            <ul class="nav nav-tabs border-bottom-0 feature-tabs feature-tabs-center d-flex justify-content-center" data-tabs="tabs">
-              <li class="nav-item">
-                <a class="nav-link d-flex align-items-center px-0 py-2" href="#feature-tab-1" data-toggle="tab">
-                  <h6 class="mb-0">About Us</h6>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link d-flex align-items-center px-0 py-2 active" href="#feature-tab-3" data-toggle="tab">
-                  <h6 class="mb-0">Our Features</h6>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link d-flex align-items-center px-0 py-2" href="#feature-tab-2" data-toggle="tab">
-                  <h6 class="mb-0">Our Services</h6>
-                </a>
-              </li>
-            </ul>
-            <div class="tab-content feature-tab-content">
-              <div class="tab-pane" id="feature-tab-1">
-                <div class="row justify-content-between align-items-center">
-                  <div class="col-12 col-md-5 col-lg-6 mb-4 mb-md-4 mb-lg-0">
-                    <div class="card bg-primary position-relative z-2 shadow-lg fancy-radius p-3">
-                      <div class="dot-shape-top position-absolute">
-                        <img src="<?php echo base_url('axxets/site/assets/img/color-shape.svg')?>" alt="dot" class="img-fluid">
-                      </div>
-                      <img class="fancy-radius img-fluid" src="<?php echo base_url('axxets/site/assets/img/about-us-2.jpg')?>" alt="modern desk">
-                      <div class="dot-shape position-absolute bottom-0">
-                        <img src="<?php echo base_url('axxets/site/assets/img/dot-shape.png')?>" alt="dot">
-                      </div>
+
+
+    <section class="about-section padding-top padding-bottom">
+        <div class="container">
+            <div class="row justify-content-between mb--50 flex-wrap-reverse">
+                <div class="col-lg-6 pe-xl-5 mb-50">
+                    <div class="video-wrapper w-100 h-100 bg-overlay bg_img" data-background="<?php echo base_url();?>assets/images/frontend/about/636a056cba46f1667892588.jpg">
+                        <a class="video-button popup" href="https://www.youtube.com/watch?v=hk1OUNOE0oE">
+                            <i class="la la-play"></i>
+                        </a>
                     </div>
-                  </div>
-                  <div class="col-12 col-md-7 col-lg-5">
-                    <div class="video-promo-content">
-                      <h2>Total Solutions for Your Business Here</h2>
-                      <p class="lead">Interactively develop timely niche markets before extensive imperatives. Professionally
-                        repurpose strategies.</p>
-                      <ul class="list-unstyled tech-feature-list">
-                        <li class="py-1"><span class="icon icon-xs mr-2 text-secondary"> <i class="ti-control-forward"></i></span><strong>Creative</strong> Websites Design</li>
-                        <li class="py-1"><span class="icon icon-xs mr-2 text-secondary"> <i class="ti-control-forward"></i></span><strong>Accounting</strong> Procedures Guidebook</li>
-                        <li class="py-1"><span class="icon icon-xs mr-2 text-secondary"> <i class="ti-control-forward"></i></span><strong>Cost</strong> Accounting Fundamentals</li>
-                        <li class="py-1"><span class="icon icon-xs mr-2 text-secondary"> <i class="ti-control-forward"></i></span><strong>SEO</strong> Optimization Services</li>
-                      </ul>
-                      <div class="action-btns mt-4">
-                        <a href="#" class="btn btn-primary  mr-2">View Services</a>
-                        <a href="#" class="btn btn-outline-primary ">Contact Us</a>
-                      </div>
-                    </div>
-                  </div>
                 </div>
-              </div>
-              <div class="tab-pane active" id="feature-tab-3">
-                <div class="row">
-                  <div class="col-md-6 col-lg-4 mb-4">
-                    <!-- Icon box -->
-                    <div class="icon-box text-center p-5 border border-variant-soft bg-white rounded-custom">
-                      <div class="card-icon mb-4">
-                        <img src="<?php echo base_url('axxets/site/assets/img/icon/icon-2.svg')?>" alt="icon" width="60" class="img-fluid">
-                      </div>
-                      <h2 class="h5">Financial Planning</h2>
-                      <p class="mb-0">You can never go wrong with our own top-notch dedicated servers loaded</p>
+                <div class="col-lg-6 mb-50">
+                    <div class="about-content">
+                        <div class="section-header left-style margin-olpo">
+                            <h2 class="title">About Us</h2>
+                        </div>
+                        <p class="text-jus"> We are a leading digital transformation and software development company, delivering innovative engineering solutions. Our expertise helps Fortune 500 companies and enterprise clients navigate and resolve the complex challenges that arise throughout their digital evolution journey. </p>
+                        <p class="text-jus">Since 2016, we have been a trusted and innovative software engineering partner for leading global brands. With years of dedicated teamwork and positive transformation, Camwel Solution LLP has evolved into a comprehensive software development and IT company, operating in Patna, Pune, and Bangalore. Our team of skilled professionals and creative experts has expanded our reach across diverse sectors, including Banking, Non-Banking, Finance, Education, Real Estate, and Network Marketing.</p>
                     </div>
-                    <!-- End of Icon box -->
-                  </div>
-                  <div class="col-md-6 col-lg-4 mb-4">
-                    <!-- Icon box -->
-                    <div class="icon-box text-center p-5 border border-variant-soft bg-white rounded-custom">
-                      <div class="card-icon mb-4">
-                        <img src="<?php echo base_url('axxets/site/assets/img/icon/icon-1.svg')?>" alt="icon" width="60" class="img-fluid">
-                      </div>
-                      <h2 class="h5">Business Growth</h2>
-                      <p class="mb-0">We can guarantee an excellent experience and loading time for your successful</p>
-                    </div>
-                    <!-- End of Icon box -->
-                  </div>
-                  <div class="col-md-6 col-lg-4 mb-4">
-                    <!-- Icon box -->
-                    <div class="icon-box text-center p-5 border border-variant-soft bg-white rounded-custom">
-                      <div class="card-icon mb-4">
-                        <img src="<?php echo base_url('axxets/site/assets/img/icon/icon-3.svg')?>" alt="icon" width="60" class="img-fluid">
-                      </div>
-                      <h2 class="h5">Saving Strategy</h2>
-                      <p class="mb-0">With full root access you will be able to take full control of your server very easy</p>
-                    </div>
-                    <!-- End of Icon box -->
-                  </div>
-                  <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
-                    <!-- Icon box -->
-                    <div class="icon-box text-center p-5 border border-variant-soft bg-white rounded-custom">
-                      <div class="card-icon mb-4">
-                        <img src="<?php echo base_url('axxets/site/assets/img/icon/icon-4.svg')?>" alt="icon" width="60" class="img-fluid">
-                      </div>
-                      <h2 class="h5">Marketing Solutions</h2>
-                      <p class="mb-0">Our VPS hosting plan is fully packed with dedicated IPv6 Internet protocol IP</p>
-                    </div>
-                    <!-- End of Icon box -->
-                  </div>
-                  <div class="col-md-6 col-lg-4 mb-4 mb-lg-0 mb-md-0">
-                    <!-- Icon box -->
-                    <div class="icon-box text-center p-5 border border-variant-soft bg-white rounded-custom">
-                      <div class="card-icon mb-4">
-                        <img src="<?php echo base_url('axxets/site/assets/img/icon/icon-6.svg')?>" alt="icon" width="60" class="img-fluid">
-                      </div>
-                      <h2 class="h5">Total SEO Solutions</h2>
-                      <p class="mb-0">If you’re not 100% satisfied with Hostlar, we’ll refund your payment no risk</p>
-                    </div>
-                    <!-- End of Icon box -->
-                  </div>
-                  <div class="col-md-6 col-lg-4 mb-lg-0 mb-md-0">
-                    <!-- Icon box -->
-                    <div class="icon-box text-center p-5 border border-variant-soft bg-white rounded-custom">
-                      <div class="card-icon mb-4">
-                        <img src="<?php echo base_url('axxets/site/assets/img/icon/icon-8.svg')?>" alt="icon" width="60" class="img-fluid">
-                      </div>
-                      <h2 class="h5">Business Security</h2>
-                      <p class="mb-0">One of many premium features is a dedicated IP cheapest VPS hosting plan</p>
-                    </div>
-                    <!-- End of Icon box -->
-                  </div>
                 </div>
-              </div>
-              <div class="tab-pane" id="feature-tab-2">
-                <div class="row">
-                  <div class="col-12 col-lg-6 col-md-6 col-sm-6 mb-4">
-                    <div class="services-single d-flex p-5 border border-variant-soft bg-white rounded-custom">
-                      <div class="icon icon-lg mr-4 text-secondary">
-                        <i class="ti-announcement"></i>
-                      </div>
-                      <div class="services-content-wrap">
-                        <h3 class="h6">Marketing Services</h3>
-                        <p>Progressively empower business "outside the box" thinking with resource-leveling
-                          partnerships.</p>
-                        <a href="services-details.html" class="link-with-icon text-default font-small font-weight-bold" target="_blank">Read more <span> <i class="fas fa-angle-right"></i></span></a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-12 col-lg-6 col-md-6 col-sm-6 mb-4">
-                    <div class="services-single d-flex p-5 border border-variant-soft bg-white rounded-custom">
-                      <div class="icon icon-lg mr-4 text-secondary">
-                        <i class="ti-light-bulb"></i>
-                      </div>
-                      <div class="services-content-wrap">
-                        <h3 class="h6">Web App Development</h3>
-                        <p>Quickly pontificate holistic e-commerce rather than goal web-readiness enhance inexpensive.</p>
-                        <a href="services-details.html" class="link-with-icon text-default font-small font-weight-bold" target="_blank">Read more <span> <i class="fas fa-angle-right"></i></span></a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-12 col-lg-6 col-md-6 col-sm-6 mb-4">
-                    <div class="services-single d-flex p-5 border border-variant-soft bg-white rounded-custom">
-                      <div class="icon icon-lg mr-4 text-secondary">
-                        <i class="ti-headphone-alt"></i>
-                      </div>
-                      <div class="services-content-wrap">
-                        <h3 class="h6">24/7 Call Center Service</h3>
-                        <p>Authoritatively reinvent multimedia based niches with global portals orchestrate client-centered .</p>
-                        <a href="services-details.html" class="link-with-icon text-default font-small font-weight-bold" target="_blank">Read more <span> <i class="fas fa-angle-right"></i></span></a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-12 col-lg-6 col-md-6 col-sm-6 mb-4">
-                    <div class="services-single d-flex p-5 border border-variant-soft bg-white rounded-custom">
-                      <div class="icon icon-lg mr-4 text-secondary">
-                        <i class="ti-bell"></i>
-                      </div>
-                      <div class="services-content-wrap">
-                        <h3 class="h6">Social Media Marketing</h3>
-                        <p>Assertively leverage other's standardized e-services with fully tested e-commerce synergistic. </p>
-                        <a href="services-details.html" class="link-with-icon text-default font-small font-weight-bold" target="_blank">Read more <span> <i class="fas fa-angle-right"></i></span></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </section>
-  <!--about section end-->
+    </section>
 
 
-</div>
+
+    <section class="team-section  pt-5 pb-5 section-bg">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="title">Team Member</h2>
+                <p>The company empowers our team members to impact the company mission, grow personally and professionally, and reach an optimal work-life balance. So, meet with our awesome members!</p>
+            </div>
+            <div class="row justify-content-center mb-30-none">
+                <div class="col-lg-3 col-md-6 col-sm-9">
+                    <div class="team-item card-shdow">
+                        <div class="team-thumb">
+                            <img src="<?php echo base_url();?>assets/images/frontend/team/636a162adadcc1667896874.jpg" alt="team">
+                        </div>
+                        <div class="team-content">
+                            <h6 class="title">
+                                Radhe Kumar
+                            </h6>
+                            <!-- <span class="info">CEO @ Adobe</span> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-9">
+                    <div class="team-item card-shdow">
+                        <div class="team-thumb">
+                            <img src="<?php echo base_url();?>assets/images/frontend/team/636a1601368b21667896833.jpg" alt="team">
+                        </div>
+                        <div class="team-content">
+                            <h6 class="title">
+                               Uma Shankar Sir
+                            </h6>
+                            <!-- <span class="info">CEO @ Adobe</span> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-9">
+                    <div class="team-item card-shdow">
+                        <div class="team-thumb">
+                            <img src="<?php echo base_url();?>assets/images/frontend/team/636a15e0139101667896800.jpg" alt="team">
+                        </div>
+                        <div class="team-content">
+                            <h6 class="title">
+                                Rakesh Kumar
+                            </h6>
+                            <!-- <span class="info">CEO @ Adobe</span> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-9">
+                    <div class="team-item card-shdow">
+                        <div class="team-thumb">
+                            <img src="<?php echo base_url();?>assets/images/frontend/team/636a15b788b3b1667896759.jpg" alt="team">
+                        </div>
+                        <div class="team-content">
+                            <h6 class="title">
+                               Raja Kumar
+                            </h6>
+                            <!-- <span class="info">CEO @ Adobe</span> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+
+    <section class="client-section padding-top padding-bottom">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="title">Our Happy Client</h2>
+                <p>We always care for our clients, lets see what&#039;s their opinion about us.</p>
+            </div>
+            <div class="client-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="client-item">
+                            <blockquote>
+                                Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit. Alias Est Maiores Quo Tempora Illum Quibusdam, Incidunt Aspernatur, Voluptatem Maxime!
+                            </blockquote>
+                            <div class="author">
+                                <div class="author-thumb">
+                                    <img src="<?php echo base_url();?>assets/images/frontend/testimonial/636a185cb4d031667897436.jpg" alt="client">
+                                </div>
+                                <div class="author-content">
+                                    <h6 class="title">Ashish kumar</h6>
+                                    <span>Designation</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="client-item">
+                            <blockquote>
+                                Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit. Alias Est Maiores Quo Tempora Illum Quibusdam, Incidunt Aspernatur, Voluptatem Maxime!
+                            </blockquote>
+                            <div class="author">
+                                <div class="author-thumb">
+                                    <img src="<?php echo base_url();?>assets/images/frontend/testimonial/636a184006d401667897408.jpg" alt="client">
+                                </div>
+                                <div class="author-content">
+                                    <h6 class="title">Uma Shankar kumar</h6>
+                                    <span>Designation</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="client-item">
+                            <blockquote>
+                                Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit. Alias Est Maiores Quo Tempora Illum Quibusdam, Incidunt Aspernatur, Voluptatem Maxime!
+                            </blockquote>
+                            <div class="author">
+                                <div class="author-thumb">
+                                    <img src="<?php echo base_url();?>assets/images/frontend/testimonial/636a1812bede71667897362.jpg" alt="client">
+                                </div>
+                                <div class="author-content">
+                                    <h6 class="title">Mahesh Kumar</h6>
+                                    <span>Designation</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="client-item">
+                            <blockquote>
+                                Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit. Alias Est Maiores Quo Tempora Illum Quibusdam, Incidunt Aspernatur, Voluptatem Maxime!
+                            </blockquote>
+                            <div class="author">
+                                <div class="author-thumb">
+                                    <img src="<?php echo base_url();?>assets/images/frontend/testimonial/636a188290b771667897474.png" alt="client">
+                                </div>
+                                <div class="author-content">
+                                    <h6 class="title">Radhe Kumar</h6>
+                                    <span>Designation</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+            
+<?php include('include/footer.php');?>
+<?php include('include/js.php');?>
+</body>
+</html>

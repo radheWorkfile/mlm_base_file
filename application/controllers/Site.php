@@ -28,20 +28,20 @@ class Site extends CI_Controller
         $layout['title']="Home";
         $layout['keywords']="Best Company, Best Company in India";
         $layout['description']="Best Company, Best Company in India";
-        $layout['layout'] = "home.php";
         $layout['news'] = $this->db->select('*')->get('news')->row_array();
         $layout['rewards'] = $this->db->select('r.*,m.name')->join('member as m', 'm.id =r.userid')->get('rewards as r')->result_array();
-        $this->load->view('theme/default/base', $layout);
+        $this->load->view('theme/index');
     }
 
-    public function about()
+    public function about() 
     {
         $layout['title']="About Us";
         $layout['keywords']="Best Company, Best Company in India";
         $layout['description']="Best Company, Best Company in India";
-        $layout['layout'] = "about.php";
-        $this->load->view('theme/default/base', $layout);
+        $this->load->view('theme/about');
     }
+
+
     public function plan()
     {
         $layout['title']="Business Plan";
@@ -62,8 +62,7 @@ class Site extends CI_Controller
             $captcha = captcha();
             // $this->session->set_userdata('captcha', $captcha['calc']);
             $layout['captcha'] =$captcha;
-            $layout['layout'] = "contact.php";
-            $this->load->view('theme/default/base', $layout);
+            $this->load->view('theme/contact');
         } else {
 
             $captcha_answer = $this->input->post('captcha');
@@ -180,7 +179,7 @@ class Site extends CI_Controller
         $this->form_validation->set_rules('phone', 'Phone No', 'trim|required');
 
         if ($this->form_validation->run() !== FALSE && !empty($this->db_model->select('name', 'member', array('id' => $this->input->post('sponsor'))))) {
-
+           
             $name = $this->input->post('name');
             $sponsor = $this->common_model->filter($this->input->post('sponsor'));
             $email = $this->input->post('email');
@@ -339,10 +338,12 @@ class Site extends CI_Controller
                 'placement_leg' => $leg,
                 'registration_ip' => $this->input->ip_address(),
                 'topup' => $prod_price,
-                'my_business' => $mybusiness,
+                'my_business' => ($mybusiness)?$mybusiness:0,
                 'mypv' => $product_detail->pv ? $product_detail->pv : 0,
                 'status' => 'Suspend',
             );
+
+
 
             $this->db->insert('member', $data);
             $user_id = $this->db_model->select('id', 'member', array(
@@ -509,8 +510,7 @@ class Site extends CI_Controller
             $layout['title']="Register";
             $layout['keywords']="Best Company, Best Company in India";
             $layout['description']="Best Company, Best Company in India";
-            $layout['layout'] = "register.php";
-            $this->load->view('theme/default/base', $layout);
+            $this->load->view('theme/register',$layout);
         }
     }
 
@@ -532,9 +532,7 @@ class Site extends CI_Controller
             $layout['title']="Registration Successful";
             $layout['keywords']="Best Company, Best Company in India";
             $layout['description']="Best Company, Best Company in India";
-            $layout['layout'] = "success.php";
-            $this->load->view('theme/default/base', $layout);
-
+            $this->load->view('theme/success',$layout);
             $this->db->where('id', $this->session->_user_id_);
             $this->db->update('member', array('status' => 'Active'));
 

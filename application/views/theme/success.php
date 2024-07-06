@@ -1,3 +1,19 @@
+<!-- MLM_ddd_LAB_ -->
+<!doctype html>
+<html lang="en" itemscope itemtype="javaScript:void(0);">
+<meta http-equiv="content-type" content="" />
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="">
+    <title>Camwel Solution || Home </title>
+    <meta name="title" Content="">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <?php include('include/css.php');?>
+</head>
+<body>
+<?php include('include/header.php');?>
+ 
 
 <style>
     .btn-primary:hover {
@@ -6,8 +22,32 @@
     border-color: #131313;
 }
 </style>
-<div class="main">
-    <h1 class="text-center">Registration is Completed !</h1>
+
+<section class="page-header bg_img" data-background="<?php echo base_url(); ?>assets/images/frontend/breadcrumb/63821bed5b0bb1669471213.jpg">
+        <div class="container">
+            <div class="page-header-wrapper">
+                <h2 class="title">Successfully Registered</h2>
+                <ul class="breadcrumb">
+                    <li>
+                        <a href="https://script.viserlab.com/mlmlab">
+                            Home </a>
+                    </li>
+                    <li>Sign Up</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+<section>
+    <div class="container pt-5 pb-5">
+        <div class="row">
+            <div class="col-md-5">
+                <img src="<?php echo base_url();?>assets/img/success.png" alt="">
+            </div>
+            <div class="col-md-7">
+                
+<div class="main pt-5 pb-5"style="border:1px solid #d2d2d2;">
+    <h4 class="text-center">Registration is Completed !</h4><br>
     <div class="row">
         <div class="col-sm-1"></div>
         <div class="col-sm-10">
@@ -50,3 +90,17 @@
         !--404 section end-->
 
     </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+            
+<?php include('include/footer.php');?>
+<?php include('include/js.php');?>
+</body>
+</html>
+
+
+
