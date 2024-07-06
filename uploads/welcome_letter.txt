@@ -1,0 +1,96 @@
+<style>
+@media print {
+  #printPageButton {
+    display: none;
+  }
+  body{
+      margin:0mm;
+  }
+}
+@page 
+    {
+        size:  auto;   /* auto is the initial value */
+        margin: 0mm;  /* this affects the margin in the printer settings */
+    }
+
+    html
+    {
+        background-color: #FFFFFF; 
+        margin: 0px;  /* this affects the margin on the html before sending to printer */
+    }
+</style>
+<div id="printMe">
+<div class="">
+    <div class="col-md-6">
+        <strong>Member ID :</strong>&nbsp;
+        <strong>{{member_id}}</strong> 
+    </div>
+    <div class="col-md-6">
+        <strong>Date Of Joining:</strong> 
+        <strong>{{member_join_date}}</strong>
+    </div>
+</div>
+<div class="">
+    <div class="col-md-6">
+        <strong>Member Name:</strong>&nbsp;
+        <strong>{{member_name}}</strong> 
+    </div>
+    
+</div>
+<div class="">
+    <div class="col-md-6">
+        <strong>Email Id :</strong>&nbsp;
+        <strong>{{member_email}}</strong> 
+    </div>
+    <div class="col-md-6">
+        <strong>Conatct No :</strong> 
+        <strong>{{member_phone}}</strong>
+    </div>
+</div>
+<br>
+
+<p><span style="color:#2ecc71"><span style="font-family:Verdana,Geneva,sans-serif"><em><span style="font-size:28px"><strong>Congratulations !</strong></span></em></span></span></p>
+
+
+<br>
+<div class="col-md-1"></div>
+
+<p><strong>Dear {{member_name}},</strong></p>
+
+
+
+<hr />
+<div class="col-md-2"></div><div class="col-md-10">
+<p>It is with great pleasure that I welcome you to <b>{{company_name}}</b>! We are very excited to have you on board with us!</p>
+
+
+
+<p>It is with great joy that I extend this warm welcome on behalf of our companys &rsquo; management and Team. I hope your journey with us will remain fruitful.</p>
+
+
+
+<p>I assure you of complete support from the team in executing works as directed by you. I will be glad to assist you during your settling period. I welcome you once again and hope you have a memorable work stint at our organization.</p>
+
+
+
+<p>We are looking forward to getting you ingrained in the [department] team. Over the following weeks and several months, we will be working together on [initiative]. We are incredibly grateful to have your [skills and experiences] to round out the team and head towards sure success!</p>
+
+
+
+<p>We very much look forward to working with you.<br />
+
+Warm Regards,</p><br><br></div></div>
+<center><button class="btn btn-primary" id="printPageButton" onclick="printDiv('printMe')">PRINT</button></center>
+<script>
+		function printDiv(divName){
+			var printContents = document.getElementById(divName).innerHTML;
+			var originalContents = document.body.innerHTML;
+
+			document.body.innerHTML = printContents;
+
+			window.print();
+
+			document.body.innerHTML = originalContents;
+
+		}
+	</script>
